@@ -18,13 +18,18 @@ h1 {
   margin: 0px;
   margin-top: 15px;
 }
+p1 {
+  font-family: monospace;
+  font-size: 1em;
+  text-align:center;
+}
 
 img {
   width: 450px;
   height: 300px;
   margin: 10px;
-  transition: all 5s;
+  transition: all 4s;
 }
 img:hover {
-  transform: scale(1.1);
+  transform: rotate(180deg);
 }
