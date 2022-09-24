@@ -18,10 +18,9 @@ h1 {
   margin: 0px;
   margin-top: 15px;
 }
-p1 {
-  font-family: monospace;
-  font-size: 1em;
-  text-align:center;
+figcaption {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2em;
 }
 
 img {
