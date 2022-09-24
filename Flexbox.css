@@ -26,5 +26,5 @@ img {
   transition: all 5s;
 }
 img:hover {
-  transform: rotate(180deg);
+  transform: scale(1.1);
 }
