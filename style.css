@@ -7,14 +7,58 @@ body {
     top: 15%;
 	background: linear-gradient(to right, rgb(255, 0, 0) , rgb(255, 255, 0)); /* Standard syntax */
 }
+/*.title-wrapper{
+    background-color: #fff;
+    background-image: linear-gradient(
+      135deg,
+      #e6eff0 0%,
+      #d03434 100%
+    );
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  position: top;
+  border-top: 0px;
+  -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin: 0%;
+  
+} */
+.title-wrapper{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem 0;
+    border:0;
+  
+}
 
 h1 {
     font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(103, 36, 0, 0.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
+}
+h2 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    position:fixed;
+    top: 45%;
+    left: 30%;
+
 }
 
 h3 {
@@ -23,5 +67,37 @@ h3 {
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+    position:fixed;
+    top: 50%;
+    left: 30%;
+
+}
+
+.input-w {
+    background-color: #fff;
+    background-image: linear-gradient(
+      0deg,
+      #e6eff0 50%,
+      #c4b541 100%
+    );
+  color: #fff;
+  height: 3rem;
+  width: 10rem;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  border: 2px;
+  padding: 1%;
+  
+  
+} 
+.input-w:hover{
+    background-color: #fff;
+    background-image: linear-gradient(
+      0deg,
+      #e6eff0 50%,
+      #35300a 100%
+    );
 
 }

@@ -3,7 +3,7 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 
-css.textContent = "Your old css was: " + localStorage.getItem("bg");
+css.textContent = "your old one was: " + localStorage.getItem("bg");
 body.style.background = "linear-gradient(to right, " 
 + localStorage.getItem("color11") + ", " + localStorage.getItem("color22") + ")";
 document.querySelector('input[class="color1"]').value = localStorage.getItem("color11");
@@ -20,7 +20,7 @@ function setGradient() {
 	localStorage.setItem("color22", color2.value);
 	localStorage.setItem("bg", body.style.background + ";");
 
-	css.textContent = "your new css is: " + body.style.background + ";";
+	css.textContent = "your new one is: " + body.style.background + ";";
 }
 
 color1.addEventListener("input", setGradient);
